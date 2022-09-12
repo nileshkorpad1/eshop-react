@@ -1,0 +1,118 @@
+a {
+  text-decoration: none;
+}
+
+.brand {
+  width: 40px;
+  height: auto;
+  margin-right: 1em;
+  transition: 0.3s linear;
+}
+.brand:hover {
+  transform: scale(1.1);
+  transition: 0.1s ease-in-out;
+}
+
+.main-navbar {
+  background-color: #858585;
+  /*background-color: transparent;*/
+  padding: 20px;
+  font-weight: bold;
+
+  text-decoration: none;
+}
+
+.main-navbar.active {
+  background-color: #858585ef;
+  transition: 0.1s ease-out;
+  color: white;
+}
+
+.arrowDown {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.arrowDown:hover {
+  color: #0a58ca;
+  transition: 0.1s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link.arrowDown {
+  font-size: 1.5rem;
+  padding-left: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #0a58ca;
+}
+
+.NavLinks {
+  color: #fff;
+  font-size: 1.5em;
+}
+.non-product {
+  padding-left: 0.5em;
+}
+
+.nav-icons {
+  font-size: 2em;
+  margin-right: 0.8em;
+}
+
+.nav-icons:hover {
+  color: #0a58ca;
+}
+
+.dropDownTitle {
+  font-size: 1.2em;
+}
+
+.mouse {
+  padding-left: 7px;
+}
+
+@media (max-width: 992px) {
+  .arrowDown {
+    padding-left: 1em;
+  }
+
+  .non-product {
+    padding-left: 1em;
+
+  }
+
+  .nav-icons {
+    padding-left: .5em;
+  }
+
+  .cart {
+    padding-left: .7em;
+  }
+
+  .searchBox:hover {
+    width: 4em;
+  }
+
+  .searchContainer {
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .searchInput {
+    padding-left: 0;
+  }
+
+}
+
+@media (max-width: 640px) {
+  .searchInput:focus {
+    width: 8em;
+  }
+}
